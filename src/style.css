@@ -1,1 +1,52 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  background-color: white;
+  height: 500px;
+  width: 350px;
+  margin: 10px;
+  padding: 0px;
+  border: 0px;
+  border-radius: 15px;
+}
+
+.left {
+  /*background-color: green;*/
+  height: 500px;
+  width: 133px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.center {
+  /*background-color: red;*/
+  height: 500px;
+  width: 133px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.right {
+  /*background-color: blue;*/
+  height: 500px;
+  width: 133px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.simbolo {
+  font-size: 100px;
+}
+
+.numero {
+  font-size: 150px;
+}
+
+.flip {
+  transform: rotate(180deg);
+}
